@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SingleLineTextView">
+        <attr name="textContent" format="string"></attr>
+        <attr name="textSize" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
