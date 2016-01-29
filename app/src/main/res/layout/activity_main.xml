@@ -15,17 +15,45 @@
         android:orientation="horizontal" >
 
         <com.gyw.singlelinetextviewdemo.SingleLineTextView
+            android:background="#ff0000"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingTop="3dp"
             android:singleLine="true"
+            gyw:textColor="#ffffff"
             gyw:textContent="A好好学习好好学习A"
-            gyw:textSize="16sp" />
+            gyw:textSize="18sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="天天向上天天向上"
+            android:textColor="#ff0000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.gyw.singlelinetextviewdemo.SingleLineTextView
+            android:background="#ff0000"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:singleLine="true"
+            gyw:textContent="A好好学习好好学习好好学习好好学习好好学习好好学习A"
+            gyw:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="天天向上天天向上"
             android:textColor="#ff0000" />
     </LinearLayout>
@@ -33,43 +61,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
         <com.gyw.singlelinetextviewdemo.SingleLineTextView
+            android:background="#ff0000"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingTop="3dp"
             android:singleLine="true"
-            gyw:textContent="A好好学习好好学习好好学习好好学习好好学习A"
-            gyw:textSize="16sp" />
+            gyw:textContent="A好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习A"
+            gyw:textSize="18sp"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="天天向上天天向上"
-            android:textColor="#ff0000" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <com.gyw.singlelinetextviewdemo.SingleLineTextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingTop="3dp"
-            android:singleLine="true"
-            gyw:textContent="A好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习A"
-            gyw:textSize="16sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="天天向上天天向上"
-            android:textColor="#ff0000" />
+            android:textColor="#ff0000"
+            />
     </LinearLayout>
 
 </LinearLayout>
